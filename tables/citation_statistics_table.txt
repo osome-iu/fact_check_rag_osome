@@ -1,0 +1,14 @@
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Model} & \textbf{$k$} & \textbf{Any URL (\%)} & \textbf{Exact Match (\%)} \\
+\midrule
+Gemini 2.0 Flash & 0 & 14 (0) & 0 (0) \\
+Gemini 2.0 Flash & 6 & 0 (0) & 0 (0) \\
+Gemini 2.0 Flash Thinking & 0 & 0 (0) & 0 (0) \\
+Gemini 2.0 Flash Thinking & 6 & 0 (0) & 0 (0) \\
+GPT-4o mini Search & 0 & 3,861 (63) & 2,691 (44) \\
+GPT-4o mini Search & 6 & 3,638 (59) & 2,780 (45) \\
+GPT-4o Search & 0 & 3,932 (64) & 2,814 (46) \\
+GPT-4o Search & 6 & 4,448 (72) & 3,646 (59) \\
+\bottomrule
+\end{tabular}

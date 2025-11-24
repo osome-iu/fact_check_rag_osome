@@ -1,0 +1,10 @@
+\begin{tabular}{llcrrrrrr}
+\toprule
+Model & Search & $k$ & Label & P & R & F1 & Sup. \\
+\midrule
+GPT-4o Search & \checkmark & 6 & True & 0.99 & 0.97 & 0.98 & 2456 \\
+GPT-4o Search & \checkmark & 6 & False & 0.99 & 0.98 & 0.98 & 3681 \\
+Llama 3.2 3B &  & 0 & True & 0.64 & 0.28 & 0.39 & 2456 \\
+Llama 3.2 3B &  & 0 & False & 0.65 & 0.87 & 0.74 & 3681 \\
+\bottomrule
+\end{tabular}

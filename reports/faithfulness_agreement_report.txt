@@ -1,0 +1,34 @@
+Krippendorff's Alpha Analysis for Faithfulness Annotations
+============================================================
+File 1 (Matt's labels): ../../data/manual_annotation/matts_labels_faithfulness.csv
+File 2 (Student labels): ../../data/manual_annotation/student_annotator_faithfulness.csv
+Loading annotation files...
+Matt's labels: 100 rows
+Student labels: 100 rows
+Data validation passed - all assertion checks successful
+
+Analyzing accuracy labels...
+
+============================================================
+KRIPPENDORFF'S ALPHA ANALYSIS RESULTS
+============================================================
+
+Basic Statistics:
+  Total items analyzed: 100
+  Exact matches: 97
+  Raw agreement: 0.9700 (97.00%)
+
+Krippendorff's Alpha: -0.0102
+Note: Krippendorff's alpha is misleading here due to extreme label imbalance
+      (one coder uses only one label category, limiting meaningful variance)
+
+Label Distribution:
+Label                Annotator 1  Annotator 2  Total   
+----------------------------------------------------
+Faithful             100          97           197     
+Minor Inaccuracies   0            3            3       
+
+Unique labels found: ['Faithful', 'Minor Inaccuracies']
+
+============================================================
+Analysis completed successfully!
