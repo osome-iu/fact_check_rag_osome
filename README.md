@@ -80,8 +80,9 @@ The bash pipeline scripts print notes about what is excluded as it executes.
 Unfortunately, we cannot share the proprietary NewsGuard data that we purchased for this study.
 The pipeline is set up to replicate with the Lin et al (2023) domain-quality list that we included in the domain quality sensitivity analysis of the Appendix.
 Should you have your own version of NewsGuard data, you can save it in the proper location and rerun the pipeline and it will be included automatically.
-Constants in the `code/data_analysis/enrich_web_url_data.py` has more information about including the NewsGuard data.
+The `code/data_analysis/enrich_web_url_data.py` has more information about including the NewsGuard data.
 You will also need to uncomment one script call at the bottom of the `03-generate-results-and-figures.sh` pipeline script to generate the main text figure.
+See the notes in that script for details.
 
 ##### API Keys
 
